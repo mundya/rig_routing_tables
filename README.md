@@ -1,5 +1,8 @@
 # Routing Table Tools
 
+[![Build Status](https://travis-ci.org/project-rig/rig_routing_tables.svg?branch=docs)](https://travis-ci.org/project-rig/rig_routing_table)
+[![Coverage](https://codecov.io/github/project-rig/rig_routing_tables/coverage.svg?branch=master)](https://codecov.io/github/project-rig/rig_routing_tables?branch=master)
+
 `rig_routing_tables` contains C implementations of routing table minimisation
 algorithms for the SpiNNaker platform.
 
