@@ -10,7 +10,7 @@ run_tests : tests
 	valgrind --leak-check=full -q ./tests
 
 tests : $(OBJECTS)
-	$(CC) $(CFLAGS) $(LDFLAGS) $(OBJECTS) -o $@
+	$(CC) $(CFLAGS) $(OBJECTS) -o $@ $(LDFLAGS)
 
 %.o : %.c $(INC_DIR)/*.h
 	$(CC) -c $(CFLAGS) $< -o $@
